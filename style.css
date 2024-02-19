@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav_bar {
+  display: flex;
+  background-color: rgb(205, 205, 205);
+  justify-content: center;
+}
+#logo {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+
+#profile {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+#profile div img {
+  height: 50px;
+  width: 50px;
+}
+
+#profile_picture {
+  border-radius: 50%;
+  padding: 10px;
+  border: solid black 1px;
+}
